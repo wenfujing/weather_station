@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<FrameLayout
+		android:layout_width="match_parent" android:layout_height="128dp">
+
+		<ImageView
+			android:id="@+id/imageView1"
+			android:layout_width="84dp"
+			android:layout_height="112dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="16dp"
+			android:src="@mipmap/service" />
+
+		<TextView
+			android:id="@+id/BookName1"
+			android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:layout_marginLeft="120dp"
+			android:layout_marginTop="16dp"
+			android:text="文章名:	服务器的搭建" />
+
+		<TextView
+			android:id="@+id/authorName1"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:layout_marginLeft="144dp"
+			android:layout_marginTop="44dp"
+			android:text="作者:		杨云" />
+
+		<TextView
+			android:id="@+id/innertext1"
+			android:layout_width="220dp"
+			android:layout_height="54dp"
+			android:layout_marginLeft="120dp"
+			android:layout_marginTop="70dp"
+			android:text="主要内容简介：服务器鱼网络WEB端的构建连接，并通过网络协议进行数据传输" />
+	</FrameLayout>
+
+	<FrameLayout
+		android:layout_width="match_parent" android:layout_height="128dp">
+
+		<ImageView
+			android:id="@+id/imageView"
+			android:layout_width="84dp"
+			android:layout_height="112dp"
+			android:layout_marginLeft="20dp"
+			android:layout_marginTop="16dp"
+			android:src="@mipmap/app" />
+
+		<TextView
+			android:id="@+id/BookName"
+			android:layout_width="wrap_content"
+			android:layout_height="20dp"
+			android:layout_marginLeft="120dp"
+			android:layout_marginTop="16dp"
+			android:text="文章名:嵌入式实时操作系统" />
+
+		<TextView
+			android:id="@+id/authorName"
+			android:layout_width="wrap_content"
+			android:layout_height="18dp"
+			android:layout_marginLeft="144dp"
+			android:layout_marginTop="44dp"
+			android:text="作者：西安电子科技大学" />
+
+		<TextView
+			android:id="@+id/innertext"
+			android:layout_width="220dp"
+			android:layout_height="54dp"
+			android:layout_marginLeft="120dp"
+			android:layout_marginTop="70dp"
+			android:text="主要内容简介嵌入式系统通过计算机的软件鱼硬件结合，由各种新协议栈、设备驱动" />
+	</FrameLayout>
+</LinearLayout>
